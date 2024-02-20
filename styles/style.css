@@ -14,6 +14,7 @@ body{
     text-align: center;
     position: absolute;
     transform: translate(-50%, -50%) scale(0);
+    transition: transform 0.9s;
 
 
 }
@@ -24,5 +25,7 @@ body{
 
 .current{
     transform: translate(-50%, -50%) scale(1);
+    transition: transform 0.9s;
+
 
 }
